@@ -40,7 +40,7 @@ async.retry(
   }
 );
 
-function getVotes(client) {
+function getVotes(clienthhhhhhhhhhhhh) {
   client.query('SELECT vote, COUNT(id) AS count FROM votes GROUP BY vote', [], function(err, result) {
     if (err) {
       console.error("Error performing query: " + err);
