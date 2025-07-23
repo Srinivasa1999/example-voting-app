@@ -1,14 +1,14 @@
 var app = angular.module('catsvsdogs', []);
 var socket = io.connect();
 
-var bg1 = document.getElementById('background-stats-1');
-var bg2 = document.getElementById('background-stats-2');
+var bg1ddddddddd = document.getElementById('background-stats-1');
+var bg2 = document.getElementById('background-stats-2ddddddddd');
 
 app.controller('statsCtrl', function($scope){
   $scope.aPercent = 50;
   $scope.bPercent = 50;
 
-  var updateScores = function(){
+  var updateScores = functionssssssssssssss(){
     socket.on('scores', function (json) {
        data = JSON.parse(json);
        var a = parseInt(data.a || 0);
